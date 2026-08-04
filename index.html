@@ -320,6 +320,12 @@
   .vcard h3{margin-top:.55rem;font:400 1.4rem/1.25 var(--disp);color:var(--text)}
   .vcard p{margin-top:.5rem;font-size:.9rem;line-height:1.66;color:var(--soft)}
   .visit-note{margin-top:1.4rem;font-size:.8rem;color:var(--dim)}
+  /* desktop: all four visit cards fit in view, no rail scrolling (2026-08-03) */
+  @media (min-width:941px){
+    .rail{grid-auto-flow:row;grid-template-columns:repeat(4,1fr);grid-auto-columns:auto;
+      overflow-x:visible;scroll-snap-type:none;padding:4px}
+    .rail-nav{display:none}
+  }
 
   /* ---------- quote over the skyline ---------- */
   .quote-sec{text-align:center}
@@ -764,7 +770,8 @@
           <circle class="fmap-pulse" cx="927" cy="126" r="15" style="--pd:1.1s"/>
           <path class="fmap-line soft" pathLength="1" style="--fd:2.45s" d="M270 278 V284 H562 V278"/>
           <path class="fmap-line soft" pathLength="1" style="--fd:2.65s" d="M562 284 H927 M927 278 V284"/>
-          <text class="fmap-sub" style="--fd:2.95s" x="598" y="304" text-anchor="middle">TYPICALLY EVERY 3 TO 6 MONTHS, TWO TO FOUR SHORT VISITS A YEAR</text>
+          <path class="fmap-line soft" pathLength="1" style="--fd:2.85s" d="M927 284 H1073 M1073 278 V284"/>
+          <text class="fmap-sub" style="--fd:3.1s" x="671" y="304" text-anchor="middle">TYPICALLY EVERY 3 TO 6 MONTHS, TWO TO FOUR SHORT VISITS A YEAR</text>
         </svg>
       </div>
 
@@ -905,7 +912,7 @@
           </button>
         </div>
       </div>
-      <div class="rail" data-rail tabindex="0" aria-label="The four steps of your first visit, scrollable">
+      <div class="rail" data-rail tabindex="0" aria-label="The four steps of your first visit">
         <!-- SWAP: visit card 1 -->
         <article class="vcard reveal">
           <div class="plate"><img class="ph" src="assets-b/consult-table.jpg" width="1200" height="1800" alt="A clinician goes through goals and history with a client at the consult table" loading="lazy" decoding="async"></div>
