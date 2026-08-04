@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<!--
+  BIOHACKR HEALTH : BOTOX AND DYSPORT GOOGLE ADS LANDING PAGE (2026-08-02)
+  Client page, not a library master. Lives at clients/biohackr/botox-google-landing/.
+  Spawned from google-ad-templates/eboo-vitalis-master (the approved EBOO fusion page)
+  and retargeted to the clinic's best-selling neuromodulator service. Assets in ./assets-b/.
+
+  P0 SPEC (design-method):
+  Concept sentence: "Marine cinema: the maintenance ritual drawn as a closed loop."
+  Kept from the master: marine #001b3f ground, Prata/Inter, red/mint accents, porcelain
+  team+offer band, Golden Gate + SF skyline backdrops, ledger rows, goals plates, medallion
+  team cards, veiled booking split, live GHL reviews widget, unit scale, particle canvas.
+  THE SIGNATURE (2026-08-03 v3; the schematic-face map read creepy to the operator, the
+  EBOO loop before it was off-topic): THE RHYTHM TIMELINE. A thin baseline draws across
+  the plate, a red dot blooms at THE VISIT (15 to 30 minutes), a mint band marks results
+  settling in over days, quiet month ticks pass, a soft red window opens at the 3 to 6
+  month touch-up with a second dot, and a slender arc returns to the start: the rhythm
+  repeats. No faces, no needles, nothing anatomical. Reduced motion: fully drawn, no
+  pulses. Hidden on mobile like the art it replaced.
+  FACTS (verified on biohackr.health/concerns/beauty, 2026-08-02): BOTOX Cosmetic and
+  Dysport, best seller, $15 per unit, visits 15 to 30 minutes, typically every 3 to 6
+  months, injections performed by the clinic's nurse, no downtime. Areas: forehead, frown
+  lines, bunny lines, crow's feet, lip lines and corners, chin, neck; also gummy smile,
+  jawline slimming, TMJ, lip flip. Phone (650) 370-1588 is the deliberate LP tracking line.
+  Compliance: prescription-treatment framing, evaluation first, results vary, no cure or
+  guarantee language, trademark identification in the footer, no before/after claims.
+  Media: real clinic photos and real December 2025 botox treatment footage, plus AI stills
+  or loops only where no real asset fits (no people harmed into existence, no legible text).
+  No em dashes. No exclamation points.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SWAP: page title (match the ad group's search intent) -->
+<title>Botox and Dysport San Francisco and Palo Alto | Biohackr Health</title>
+<!-- SWAP: meta description, 150 to 160 characters -->
+<meta name="description" content="BOTOX Cosmetic and Dysport at Biohackr Health, San Francisco Marina and Palo Alto. Nurse injected, physician led, $15 per unit. Free consult, 15 to 30 minute visits.">
+<meta name="theme-color" content="#001b3f">
+<link rel="icon" type="image/png" href="assets-b/favicon.png">
+<link rel="apple-touch-icon" href="assets-b/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* FUSION : marine cinema. Brand marine ground, Italiana display, living loop.
+     Every moving feature pauses offscreen, in hidden tabs, and under reduced motion. */
+
+  /* SWAP: brand palette (edit these tokens only) */
+  :root{
+    --marine:#001b3f;
+    --marine-2:#04234c;
+    --marine-deep:#001228;
+    --red:#e01919;
+    --red-deep:#b31212;
+    --red-bright:#ff5f52;
+    --mint:#9cd3ca;
+    --porcelain:#f3f5f9;
+    --porcelain-2:#ffffff;
+    --text:#e9edf4;
+    --soft:rgba(233,237,244,.68);
+    --dim:rgba(233,237,244,.46);
+    --ink:#0e2447;
+    --ink-soft:#3c527a;
+    --hair:rgba(233,237,244,.16);
+    --hair-strong:rgba(233,237,244,.26);
+    --hair-ink:rgba(14,36,71,.18);
+    --wash:rgba(0,27,63,.24);
+    --disp:'Prata',Georgia,serif;
+    --body:'Inter','Helvetica Neue',Arial,sans-serif;
+    --ease:cubic-bezier(.17,.67,.3,1);
+    --header-h:78px;
+  }
+
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  html,body{overflow-x:clip}
+  body{
+    background:var(--marine);color:var(--text);
+    font-family:var(--body);font-size:1rem;line-height:1.7;
+    font-variant-numeric:tabular-nums;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  img,video{display:block;max-width:100%}
+  img{height:auto}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--red);color:#fff}
+  :focus-visible{outline:2px solid var(--red-bright);outline-offset:3px}
+  section[id]{scroll-margin-top:var(--header-h)}
+  body.no-scroll{overflow:hidden}
+
+  .skip-link{position:absolute;left:-999px;top:0;z-index:300;background:var(--red);color:#fff;
+    padding:.9rem 1.4rem;font:600 .78rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase}
+  .skip-link:focus{left:0}
+
+  .wrap{width:min(1160px,calc(100% - 52px));margin:0 auto}
+
+  /* ---------- primitives ---------- */
+  .kicker{display:inline-flex;align-items:center;gap:12px;margin-bottom:18px;
+    font:600 .68rem/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--red-bright)}
+  .kicker::before{content:"";width:26px;height:2px;background:var(--red)}
+  .kicker .idx{color:var(--mint);letter-spacing:.18em}
+  .on-light .kicker{color:var(--red-deep)}
+  .on-light .kicker .idx{color:var(--ink-soft)}
+  h1,h2,h3{font-weight:400}
+  h1,h2{font-family:var(--disp);letter-spacing:.005em;line-height:1.08}
+  .h-lede{margin-top:1.15rem;max-width:62ch;color:var(--soft);font-size:1.02rem;line-height:1.75}
+  .on-light .h-lede{color:var(--ink-soft)}
+  .caps{font:600 .68rem/1.5 var(--body);letter-spacing:.22em;text-transform:uppercase}
+
+  .btn{display:inline-block;padding:1.02rem 2.1rem;background:var(--red);color:#fff;border:1px solid var(--red);
+    font:600 .74rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;cursor:pointer;
+    transition:background .25s ease,border-color .25s ease,transform .25s var(--ease)}
+  .btn:hover{background:var(--red-deep);border-color:var(--red-deep);transform:translateY(-2px)}
+  .btn:active{transform:translateY(-1px)}
+  .btn-ghost{background:transparent;border:1px solid var(--hair-strong);color:var(--text)}
+  .btn-ghost:hover{background:rgba(233,237,244,.06);border-color:var(--text);transform:translateY(-2px)}
+  .link-quiet{display:inline-block;font:600 .72rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;
+    color:var(--soft);border-bottom:1px solid var(--hair-strong);padding-bottom:.42rem;transition:color .2s ease,border-color .2s ease}
+  .link-quiet:hover{color:var(--text);border-color:var(--red-bright)}
+
+  .js .reveal{transform:translateY(20px);transition:transform .85s var(--ease) var(--d,0s)}
+  .js .reveal.in{transform:none}
+
+  .ph{filter:saturate(.82) contrast(1.06) brightness(.92)}
+  .plate{position:relative;overflow:hidden;background:var(--marine-2)}
+  .plate::after{content:"";position:absolute;inset:0;background:var(--wash);pointer-events:none}
+  @keyframes kenburns{0%{transform:scale(1.03)}100%{transform:scale(1.12) translate3d(-1.5%,-1%,0)}}
+  .kb{animation:kenburns 30s ease-in-out infinite alternate;transform-origin:50% 40%;will-change:transform}
+
+  .slot{position:relative;overflow:hidden;background:var(--marine-2)}
+  .slot video{position:absolute;inset:0;z-index:2;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1s ease}
+  .slot video[hidden]{display:none}
+  .slot.video-live video{opacity:1}
+  .slot > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+  /* SWAP: scenic backdrops (the live page's tinted Bay Area photos, kept under marine washes) */
+  .scenic{position:relative}
+  .scenic::before{content:"";position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(180deg,rgba(0,27,63,.86),rgba(0,27,63,.62) 46%,rgba(0,27,63,.9)),
+    url("assets-b/golden-gate-tinted.jpg") center 28%/cover no-repeat}
+  .scenic-city::before{background:linear-gradient(180deg,rgba(0,27,63,.8),rgba(0,27,63,.58) 50%,rgba(0,27,63,.84)),
+    url("assets-b/sf-skyline-tinted.jpg") center 34%/cover no-repeat}
+  .scenic>.wrap{position:relative;z-index:1}
+
+  /* ---------- header ---------- */
+  .top{position:sticky;top:0;z-index:120}
+  .top::before{content:"";position:absolute;inset:0;background:rgba(0,18,40,.94);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--hair);opacity:0;transition:opacity .5s ease}
+  .top.scrolled::before{opacity:1}
+  .top-inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:1.6rem;
+    height:var(--header-h);padding:0 clamp(1.2rem,3.4vw,2.6rem)}
+  .logo img{width:clamp(150px,16vw,196px);height:auto}
+  .top-links{display:flex;gap:1.9rem}
+  .top-links a{font:600 .66rem/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--soft);
+    padding:.5rem 0;border-bottom:1px solid transparent;transition:color .2s ease,border-color .2s ease}
+  .top-links a:hover{color:var(--text);border-color:var(--red-bright)}
+  .top-right{display:flex;align-items:center;gap:1.4rem}
+  .top-tel{font:600 .78rem/1 var(--body);letter-spacing:.08em;color:var(--soft);transition:color .2s ease}
+  .top-tel:hover{color:var(--text)}
+  .top .btn{padding:.78rem 1.35rem;font-size:.64rem}
+
+  /* ---------- hero: full-bleed AI film, left copy ---------- */
+  .hero{position:relative;min-height:min(90svh,900px);display:flex;align-items:center;overflow:hidden}
+  .hero .slot{position:absolute;inset:0}
+  .hero-veil{position:absolute;inset:0;z-index:3;
+    background:linear-gradient(100deg,rgba(0,18,40,.93) 26%,rgba(0,27,63,.66) 58%,rgba(0,27,63,.3))}
+  .hero-core{position:relative;z-index:4;width:min(1160px,calc(100% - 52px));margin:0 auto;
+    padding:clamp(5.4rem,12vh,8rem) 0}
+  .hero h1{font-size:clamp(2.7rem,1.5rem + 4.6vw,4.7rem);max-width:13ch}
+  .hero-sub{margin-top:1.5rem;max-width:52ch;font-size:1.05rem;line-height:1.78;color:var(--soft)}
+  .hero-ctas{display:flex;align-items:center;gap:1.6rem;flex-wrap:wrap;margin-top:2.4rem}
+  .hero-proof{display:flex;gap:.8rem 1.8rem;flex-wrap:wrap;margin-top:2.5rem;color:var(--dim);
+    font:600 .64rem/1.7 var(--body);letter-spacing:.2em;text-transform:uppercase}
+  .hero-proof b{color:var(--mint);font-weight:600}
+
+  /* ---------- credentials strip (light) ---------- */
+  .creds{background:var(--porcelain);color:var(--ink);border-top:1px solid var(--hair-ink)}
+  .creds-inner{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.9rem 2.4rem;
+    padding:1.35rem clamp(1.2rem,3vw,2.4rem);text-align:center}
+  .creds .caps{font-size:.66rem;letter-spacing:.24em;color:var(--ink)}
+  .creds .tick{width:5px;height:5px;background:var(--red);transform:rotate(45deg);flex:none}
+
+  /* ---------- shared section rhythm ---------- */
+  .sec{padding:clamp(74px,9.5vw,120px) 0}
+  .sec.raised{background:var(--marine-2)}
+  .on-light{background:var(--porcelain);color:var(--ink)}
+  .sec-head{max-width:720px}
+  .sec-head h2{font-size:clamp(2.1rem,1rem + 3vw,3.5rem)}
+  .sec-head.centered{margin:0 auto;text-align:center}
+  .sec-head.centered .kicker{justify-content:center}
+
+  /* ---------- 01 what is EBOO: split with the moving portrait pair ---------- */
+  .what-grid{display:grid;grid-template-columns:7fr 5fr;gap:clamp(2.2rem,5vw,4.6rem);align-items:start}
+  .what-copy p.body{margin-top:1.15rem;max-width:58ch;color:var(--soft)}
+  .what-copy p.body strong{color:var(--text);font-weight:600}
+  .spec-chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin-top:2.2rem;
+    background:var(--hair);border:1px solid var(--hair)}
+  .chip{background:var(--marine);padding:1.15rem 1.2rem;transition:background .3s ease}
+  .chip:hover{background:var(--marine-2)}
+  .chip .caps{color:var(--mint);font-size:.58rem;letter-spacing:.24em}
+  .chip strong{display:block;margin-top:.4rem;font:400 1.2rem/1.3 var(--disp);color:var(--text)}
+  .what-media{position:relative;margin:0}
+  .w-main.slot{width:80%;border:1px solid var(--hair)}
+  .w-main .frame-int{aspect-ratio:9/16}
+  .w-over.slot{position:absolute;right:0;bottom:-9%;width:46%;z-index:3;border:1px solid var(--hair-strong);
+    box-shadow:0 28px 64px rgba(0,10,24,.6)}
+  .w-over .frame-int{aspect-ratio:9/16}
+  .frame-int{position:relative;width:100%}
+
+  /* ---------- 02 how: the year card + ledger rows ---------- */
+  .fmap-box{position:relative;margin:clamp(2.4rem,5vw,3.8rem) 0 clamp(1.6rem,3vw,2.6rem);border:1px solid var(--hair);
+    background:rgba(0,18,40,.5);padding:clamp(1.2rem,3vw,2.2rem) clamp(1rem,2.6vw,2rem) clamp(.9rem,2vw,1.4rem);
+    overflow:hidden}
+  .fmap-svg{position:relative;width:100%;height:auto;display:block}
+  .fmap-line{stroke:rgba(156,211,202,.6);stroke-width:2;fill:none;stroke-linecap:round}
+  .fmap-line.soft{stroke:rgba(233,237,244,.32)}
+  .fmap-line.red{stroke:rgba(255,95,82,.72)}
+  .fmap-cell{fill:rgba(156,211,202,.16);stroke:rgba(156,211,202,.32);stroke-width:1;
+    transform-origin:center;transform-box:fill-box}
+  .fmap-cell.red{fill:var(--red-bright);fill-opacity:.92;stroke:none}
+  .js .fmap-cell{transform:scale(.2);opacity:0;
+    transition:transform .5s var(--ease) var(--fd,0s),opacity .4s ease var(--fd,0s)}
+  .js .fmap-svg.in .fmap-cell{transform:scale(1);opacity:1}
+  .js .fmap-line{stroke-dasharray:1;stroke-dashoffset:1}
+  .js .fmap-svg.in .fmap-line{stroke-dashoffset:0;transition:stroke-dashoffset 1.5s ease var(--fd,0s)}
+  .fmap-dot{fill:var(--red-bright);transform-origin:center;transform-box:fill-box}
+  .js .fmap-dot{transform:scale(0);opacity:0;
+    transition:transform .55s var(--ease) var(--fd,0s),opacity .4s ease var(--fd,0s)}
+  .js .fmap-svg.in .fmap-dot{transform:scale(1);opacity:1}
+  .fmap-callout{stroke:rgba(233,237,244,.26);stroke-width:1.2;fill:none}
+  .fmap-label{font:600 11px var(--body);letter-spacing:.22em;fill:var(--mint)}
+  .fmap-label.red{fill:var(--red-bright)}
+  .fmap-sub{font:600 11px var(--body);letter-spacing:.3em;fill:rgba(233,237,244,.6)}
+  .js .fmap-callout,.js .fmap-label,.js .fmap-sub{opacity:0;transition:opacity .6s ease var(--fd,0s)}
+  .js .fmap-svg.in .fmap-callout,.js .fmap-svg.in .fmap-label,.js .fmap-svg.in .fmap-sub{opacity:1}
+  .fmap-pulse{fill:none;stroke:var(--red-bright);stroke-width:1.3;opacity:0;
+    transform-origin:center;transform-box:fill-box}
+  .fmap-box.live .fmap-svg.in .fmap-pulse{animation:fmapPulse 3.6s ease-out infinite;animation-delay:var(--pd,0s)}
+  @keyframes fmapPulse{0%{transform:scale(.4);opacity:.65}70%{transform:scale(2.4);opacity:0}100%{transform:scale(2.4);opacity:0}}
+  .steps{border-top:1px solid var(--hair)}
+  .step{display:grid;grid-template-columns:84px 1.05fr 1.6fr 128px;gap:clamp(1.2rem,3vw,2.6rem);
+    align-items:center;padding:clamp(1.5rem,3vw,2.1rem) .2rem;border-bottom:1px solid var(--hair);
+    transition:background .3s ease}
+  .step:hover{background:rgba(233,237,244,.03)}
+  .step-no{font:400 1.9rem/1 var(--disp);color:var(--red-bright)}
+  .step-no::after{content:"";display:block;width:26px;height:1px;margin-top:.5rem;background:var(--hair-strong)}
+  .step h3{font:600 1.02rem/1.4 var(--body);letter-spacing:.01em;color:var(--text)}
+  .step p{font-size:.94rem;line-height:1.7;color:var(--soft)}
+  .step .plate{width:128px}
+  .step .plate img{width:100%;aspect-ratio:1/1;object-fit:cover;transition:transform 1.2s var(--ease)}
+  .step:hover .plate img{transform:scale(1.05)}
+  .how-note{margin-top:1.6rem;font-size:.8rem;color:var(--dim);max-width:70ch;margin-left:auto;margin-right:auto;text-align:center}
+
+  /* ---------- 03 goals over the bridge ---------- */
+  .goals{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--hair);
+    border:1px solid var(--hair);margin-top:clamp(2.4rem,5vw,3.6rem)}
+  .goal{position:relative;background:var(--marine);padding:1.7rem 1.4rem 1.6rem;transition:background .3s ease}
+  .goal:hover{background:var(--marine-2)}
+  .goal::after{content:"";position:absolute;left:1.4rem;right:1.4rem;top:0;height:2px;background:var(--red);
+    transform:scaleX(0);transform-origin:left center;transition:transform .45s var(--ease)}
+  .goal:hover::after{transform:scaleX(1)}
+  .goal .caps{color:var(--mint);font-size:.56rem;letter-spacing:.26em}
+  .goal h3{margin-top:.85rem;font:400 1.34rem/1.3 var(--disp);color:var(--text)}
+  .goal p{margin-top:.6rem;font-size:.88rem;line-height:1.65;color:var(--soft)}
+  .goals-note{margin-top:1.5rem;font-size:.8rem;color:var(--dim);max-width:74ch;margin-left:auto;margin-right:auto;text-align:center}
+
+  /* ---------- 04 who + honesty ---------- */
+  .who-grid{display:grid;grid-template-columns:1fr;gap:clamp(2.4rem,5.5vw,5rem);align-items:start}
+  .fit-grid{margin-top:2.4rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:1rem}
+  .fit-card{border:1px solid var(--hair);background:rgba(0,18,40,.5);padding:1.7rem 1.4rem 1.6rem}
+  .fit-card svg{width:27px;height:27px;fill:none;stroke:var(--red-bright);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .fit-card h3{margin-top:1.1rem;font:600 .98rem/1.4 var(--body);color:var(--text)}
+  .fit-card p{margin-top:.45rem;font-size:.88rem;line-height:1.6;color:var(--soft)}
+  .fit-note{margin:2.2rem auto 0;max-width:74ch;text-align:center;font-size:.8rem;line-height:1.7;color:var(--dim)}
+  .fit-note strong{color:var(--text);font-weight:600}
+  .honesty{position:relative;border:1px solid var(--hair-strong);background:rgba(0,18,40,.55);
+    padding:clamp(1.8rem,3.4vw,2.6rem)}
+  .honesty::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--mint)}
+  .honesty .caps{color:var(--mint)}
+  .honesty h3{margin-top:1rem;font:400 1.9rem/1.15 var(--disp);color:var(--text)}
+  .honesty ul{list-style:none;margin-top:1.3rem}
+  .honesty li{position:relative;padding:.72rem 0 .72rem 1.6rem;font-size:.93rem;line-height:1.65;
+    color:var(--soft);border-top:1px solid var(--hair)}
+  .honesty li:first-child{border-top:0}
+  .honesty li::before{content:"";position:absolute;left:2px;top:1.32em;width:9px;height:1px;background:var(--mint)}
+  .honesty .foot{margin-top:1.4rem;font-size:.8rem;color:var(--dim)}
+
+  /* ---------- film band ---------- */
+  .film{position:relative;height:clamp(380px,56vh,600px);overflow:hidden}
+  .film > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0%}
+  .film-scrim{position:absolute;inset:0;z-index:2;display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;
+    padding:clamp(1.4rem,3.4vw,2.6rem);
+    background:linear-gradient(180deg,rgba(0,27,63,.55),rgba(0,27,63,.14) 44%,rgba(0,27,63,.66))}
+  .film-scrim .caps{color:var(--text);font-size:.64rem;letter-spacing:.3em}
+  .film-scrim .caps.quiet{color:var(--soft)}
+
+  /* ---------- 05 visit rail ---------- */
+  .visit-head{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;margin-bottom:clamp(2rem,4vw,3rem)}
+  .visit-head h2{font-size:clamp(2.1rem,1rem + 3vw,3.5rem);max-width:16ch}
+  .rail-nav{display:flex;gap:.7rem;flex:none}
+  .rail-btn{width:46px;height:46px;display:grid;place-items:center;background:transparent;color:var(--text);
+    border:1px solid var(--hair-strong);cursor:pointer;transition:border-color .2s ease,background .2s ease,transform .2s var(--ease)}
+  .rail-btn:hover{border-color:var(--red-bright);background:rgba(224,25,25,.08);transform:translateY(-2px)}
+  .rail-btn svg{width:16px;height:16px}
+  .rail{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(262px,27vw,340px);gap:clamp(1rem,2vw,1.6rem);
+    overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 4px 18px;scrollbar-width:thin;
+    scrollbar-color:rgba(224,25,25,.5) rgba(233,237,244,.06)}
+  .rail::-webkit-scrollbar{height:6px}
+  .rail::-webkit-scrollbar-track{background:rgba(233,237,244,.06)}
+  .rail::-webkit-scrollbar-thumb{background:rgba(224,25,25,.5)}
+  .vcard{scroll-snap-align:start;border:1px solid var(--hair);background:rgba(0,18,40,.4);
+    display:flex;flex-direction:column;transition:border-color .3s ease,transform .3s var(--ease)}
+  .vcard:hover{border-color:rgba(224,25,25,.55);transform:translateY(-4px)}
+  .vcard .plate img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform 1.2s var(--ease)}
+  .vcard:hover .plate img{transform:scale(1.05)}
+  .vcard-body{padding:1.3rem 1.3rem 1.4rem}
+  .vcard .caps{color:var(--red-bright);font-size:.58rem}
+  .vcard h3{margin-top:.55rem;font:400 1.4rem/1.25 var(--disp);color:var(--text)}
+  .vcard p{margin-top:.5rem;font-size:.9rem;line-height:1.66;color:var(--soft)}
+  .visit-note{margin-top:1.4rem;font-size:.8rem;color:var(--dim)}
+
+  /* ---------- quote over the skyline ---------- */
+  .quote-sec{text-align:center}
+  .quote-mark{width:34px;height:34px;margin:0 auto 1.4rem;color:var(--red-bright)}
+  .quote-sec blockquote p{font:400 clamp(1.7rem,1rem + 2.2vw,2.7rem)/1.38 var(--disp);
+    max-width:23em;margin:0 auto;color:var(--text)}
+  .quote-sec cite{display:block;margin-top:1.8rem;font:600 .64rem/1.6 var(--body);
+    letter-spacing:.26em;text-transform:uppercase;font-style:normal;color:var(--dim)}
+
+  /* ---------- porcelain band: team + offer with unit scale ---------- */
+  .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.4rem,3vw,2.4rem);
+    margin-top:clamp(2.4rem,5vw,3.6rem)}
+  .member{background:var(--porcelain-2);border:1px solid var(--hair-ink);text-align:center;
+    padding:clamp(1.6rem,3vw,2.2rem) clamp(1.2rem,2.4vw,1.8rem);
+    transition:transform .35s var(--ease),border-color .35s ease}
+  .member:hover{transform:translateY(-4px);border-color:rgba(14,36,71,.34)}
+  .medal{width:min(64%,220px);margin:0 auto;padding:9px;border:1px solid var(--hair-ink);border-radius:50%}
+  .member .plate{border-radius:50%;background:#dfe5ee}
+  .member .plate::after{background:rgba(0,27,63,.08);border-radius:50%}
+  .member .plate img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 22%}
+  .member h3{margin-top:1.3rem;font:400 1.5rem/1.2 var(--disp);color:var(--ink)}
+  .member .caps{display:block;margin-top:.5rem;color:var(--red-deep);font-size:.6rem}
+  .member p{margin-top:.75rem;font-size:.9rem;line-height:1.68;color:var(--ink-soft)}
+
+  .offer{margin-top:clamp(3.2rem,6vw,4.6rem);border-top:1px solid var(--hair-ink);
+    padding-top:clamp(2.6rem,5vw,3.6rem)}
+  .offer-card{display:grid;grid-template-columns:1.25fr .75fr;background:var(--marine);color:var(--text);
+    border:1px solid var(--marine)}
+  .offer-main{padding:clamp(2rem,4vw,3.2rem)}
+  .offer-main h3{font:400 clamp(1.9rem,1rem + 2vw,2.8rem)/1.12 var(--disp)}
+  .offer-main .h-lede{color:var(--soft)}
+  .offer-list{list-style:none;margin-top:1.6rem}
+  .offer-list li{position:relative;padding:.68rem 0 .68rem 1.7rem;font-size:.95rem;color:var(--soft);
+    border-top:1px solid var(--hair)}
+  .offer-list li:first-child{border-top:0}
+  .offer-list li::before{content:"";position:absolute;left:2px;top:1.24em;width:10px;height:10px;
+    border:1px solid var(--red-bright);transform:rotate(45deg)}
+  .offer-aside{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;
+    padding:clamp(2rem,4vw,3rem);background:var(--porcelain-2);color:var(--ink);text-align:center;
+    border-left:1px solid var(--hair-ink)}
+  .uscale{width:min(280px,72vw);height:auto}
+  .uscale .track{stroke:rgba(14,36,71,.18);stroke-width:2;fill:none;stroke-linecap:round}
+  .uscale .tick{stroke:rgba(14,36,71,.32);stroke-width:1.6}
+  .uscale .tick.major{stroke:rgba(14,36,71,.5)}
+  .js .uscale .tick{opacity:0;transition:opacity .45s ease var(--ud,0s)}
+  .js .uscale.in .tick{opacity:1}
+  .uscale .ufill{stroke:var(--red);stroke-width:3.5;fill:none;stroke-linecap:round}
+  .js .uscale .track,.js .uscale .ufill{stroke-dasharray:1;stroke-dashoffset:1}
+  .js .uscale.in .track{stroke-dashoffset:0;transition:stroke-dashoffset 1s var(--ease) .1s}
+  .js .uscale.in .ufill{stroke-dashoffset:0;transition:stroke-dashoffset 1.1s var(--ease) 1.05s}
+  .uscale .udot{fill:var(--red);transform-origin:center;transform-box:fill-box}
+  .js .uscale .udot{transform:scale(0);opacity:0;
+    transition:transform .5s var(--ease) 2.05s,opacity .3s ease 2.05s}
+  .js .uscale.in .udot{transform:scale(1);opacity:1}
+  .uscale .g-big{font:400 62px var(--disp);fill:var(--ink)}
+  .uscale .g-caps{font:600 11px var(--body);letter-spacing:.28em;fill:var(--ink-soft)}
+  .offer-aside .btn{width:100%}
+  .offer-aside .fine{font-size:.72rem;color:var(--ink-soft)}
+
+  /* ---------- booking finale ---------- */
+  .book{position:relative;overflow:hidden}
+  .book > .bg{position:absolute;inset:0}
+  .book > .bg img{width:100%;height:100%;object-fit:cover}
+  .book > .bg::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(100deg,rgba(0,18,40,.96) 34%,rgba(0,27,63,.86) 60%,rgba(0,27,63,.7))}
+  .book-grid{position:relative;z-index:2;display:grid;grid-template-columns:1fr .95fr;
+    gap:clamp(2.4rem,5.5vw,5rem);align-items:center;padding:clamp(80px,10vw,128px) 0 clamp(40px,5.5vw,64px)}
+  .book-copy h2{font-size:clamp(2.1rem,1rem + 3vw,3.5rem)}
+  .book-tel{display:inline-block;margin-top:1.9rem;font:400 1.7rem/1 var(--disp);color:var(--text);
+    border-bottom:1px solid var(--hair-strong);padding-bottom:.4rem;transition:border-color .2s ease}
+  .book-tel:hover{border-color:var(--red-bright)}
+  .book-meta{margin-top:2rem;display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;max-width:520px}
+  .book-meta .caps{color:var(--mint);font-size:.58rem}
+  .book-meta p{margin-top:.45rem;font-size:.88rem;line-height:1.7;color:var(--soft)}
+  .form-card{background:var(--porcelain);color:var(--ink);padding:clamp(1.8rem,3.6vw,2.8rem);
+    border-top:3px solid var(--red)}
+  .form-card h3{font:400 1.9rem/1.15 var(--disp)}
+  .form-card .sub{margin-top:.5rem;font-size:.88rem;color:var(--ink-soft)}
+  .f-grid{display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1rem;margin-top:1.6rem}
+  .f-field{display:flex;flex-direction:column;gap:.4rem}
+  .f-field label{font:600 .6rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft)}
+  .f-field input,.f-field select{width:100%;padding:.85rem .9rem;border:1px solid var(--hair-ink);
+    background:#fff;color:var(--ink);font:500 .95rem/1.3 var(--body);border-radius:0;
+    transition:border-color .2s ease}
+  .f-field select{appearance:none;-webkit-appearance:none;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%230e2447' stroke-width='1.6'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right .9rem center}
+  .f-field input:focus,.f-field select:focus{outline:none;border-color:var(--red)}
+  .form-card .btn{width:100%;margin-top:1.4rem;text-align:center}
+  .f-note{margin-top:1rem;font-size:.74rem;line-height:1.6;color:var(--ink-soft);text-align:center}
+  .f-status{margin-top:.9rem;font:600 .74rem/1.5 var(--body);color:var(--red-deep);text-align:center;display:none}
+  .f-status.show{display:block}
+
+  /* ---------- google reviews band ---------- */
+  .g-reviews{text-align:center}
+  .g-reviews .stars{font:600 .62rem/1 var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--red);margin-bottom:1.5rem}
+  /* max-width guards against the widget helper script assigning a fixed pixel width */
+  .g-reviews iframe{display:block;width:100%;max-width:100% !important;min-height:360px;border:0;border-radius:2px}
+  .g-reviews .g-link{display:inline-block;margin-top:1.7rem;font:600 .66rem/1 var(--body);letter-spacing:.22em;text-transform:uppercase;color:var(--text);border:1px solid var(--hair-strong);padding:.95rem 1.5rem;text-decoration:none;transition:border-color .3s ease}
+  .g-reviews .g-link:hover{border-color:var(--red)}
+
+  /* ---------- footer ---------- */
+  .footer{background:var(--marine-deep);color:var(--dim);padding:.6rem 0 1.4rem;
+    border-top:1px solid var(--hair)}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr .9fr;gap:2.4rem}
+  .foot-brand img{width:170px}
+  .foot-brand p{margin-top:1.2rem;font-size:.86rem;line-height:1.75;max-width:30em}
+  .footer h3{font:600 .62rem/1 var(--body);letter-spacing:.3em;text-transform:uppercase;
+    color:var(--mint);margin-bottom:1.1rem}
+  .footer address{font-style:normal;font-size:.88rem;line-height:1.85}
+  .footer address strong{color:var(--soft);font-weight:600}
+  .foot-links a{display:block;padding:.3rem 0;font-size:.86rem;transition:color .2s ease}
+  .foot-links a:hover,.footer address a:hover{color:var(--text)}
+  .foot-legal{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--hair);text-align:center;
+    font-size:.76rem;line-height:1.7}
+  .foot-legal p + p{margin-top:.5rem}
+  .foot-legal .pp-link{color:inherit;text-decoration:none}
+  .foot-legal .pp-link:hover{text-decoration:underline;text-underline-offset:3px}
+  .addr-link{color:inherit;text-decoration:none}
+  .addr-link:hover{text-decoration:underline;text-decoration-color:rgba(233,237,244,.5);text-underline-offset:3px}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:1060px){
+    .goals{grid-template-columns:repeat(2,1fr)}
+    .step{grid-template-columns:64px 1fr 110px;grid-template-rows:auto auto}
+    .step h3{grid-column:2}
+    .step p{grid-column:2;grid-row:2}
+    .step .plate{grid-column:3;grid-row:1/3;width:110px}
+    .foot-grid{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:940px){
+    .top-links{display:none}
+    .what-grid,.who-grid,.book-grid{grid-template-columns:1fr}
+    .what-media{max-width:460px;margin-top:1rem}
+    .offer-card{grid-template-columns:1fr}
+    .offer-aside{border-left:0;border-top:1px solid var(--hair-ink)}
+    .team-grid{grid-template-columns:repeat(2,1fr)}
+    .visit-head{flex-direction:column;align-items:flex-start;gap:1.2rem}
+  }
+  @media (max-width:640px){
+    .wrap{width:calc(100% - 40px)}
+    .goals{grid-template-columns:1fr}
+    .team-grid{grid-template-columns:1fr;max-width:420px}
+    .f-grid{grid-template-columns:1fr}
+    .f-grid{grid-template-columns:1fr}
+    .book-meta{grid-template-columns:1fr}
+    .top-tel{display:none}
+    .hero-ctas .link-quiet{display:none}
+    .rail{grid-auto-columns:84vw}
+    .hero-cap{display:none}
+    /* mobile pass 2026-08-02: phone-only layout fixes; desktop untouched */
+    .fmap-box{display:none}
+    .step{display:grid;grid-template-columns:1fr 94px;grid-template-rows:auto auto auto;gap:.5rem 1rem;padding:1.45rem 0}
+    .step p.step-no{grid-area:1/1/2/2;font-size:1.1rem}
+    .step h3{grid-area:2/1/3/2}
+    .step p{grid-area:3/1/4/2;font-size:.9rem}
+    .step .plate{grid-area:1/2/4/3;width:94px;align-self:center;justify-self:end}
+    .chip strong{font-size:1.05rem}
+    .fit-grid{grid-template-columns:1fr 1fr;gap:.7rem}
+    .fit-card{padding:1.2rem 1rem 1.1rem}
+    .fit-card svg{width:22px;height:22px}
+    .fit-card h3{font-size:.9rem;margin-top:.9rem}
+    .fit-card p{font-size:.8rem}
+    .film{height:clamp(300px,52vh,430px)}
+    .g-reviews iframe{min-height:0;height:640px !important}
+    .top .btn{padding:.7rem .95rem;font-size:.6rem;letter-spacing:.16em;white-space:nowrap}
+    .hero{min-height:0}
+    .hero-core{padding:2.1rem 0 2.2rem}
+    .sec{padding:34px 0}
+    .creds-inner{gap:.18rem .85rem;padding:.5rem .9rem}
+    .creds .caps{font-size:.46rem;letter-spacing:.12em}
+    .creds .tick{width:3px;height:3px}
+    .goals .reveal{transform:none !important;transition:none !important}
+    .steps{margin-top:1.5rem}
+    .film-scrim .caps{max-width:44%}
+    .film-scrim .caps.quiet{text-align:right}
+    .rail .vcard{transform:none !important;opacity:1 !important}
+    .book-grid{gap:1rem}
+    .book-copy{display:contents}
+    .book-copy .kicker{order:1}
+    .book-copy h2{order:2}
+    .book-copy .h-lede{order:3}
+    .book-grid .form-card{order:4;margin-top:1.4rem}
+    .book-copy .book-tel{order:5;display:block;width:fit-content;margin:2.2rem auto 0}
+    .book-copy .book-meta{order:6;grid-template-columns:1fr 1fr;gap:1rem;max-width:none;margin-top:.4rem}
+  }
+
+  /* ---------- reduced motion ---------- */
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;
+      transition-duration:.01ms !important;transition-delay:0s !important}
+    .js .reveal{transform:none}
+    .kb{animation:none}
+    .js .fmap-line{stroke-dasharray:none;stroke-dashoffset:0}
+    .js .fmap-dot{transform:scale(1);opacity:1}
+    .js .fmap-cell{transform:scale(1);opacity:1}
+    .js .fmap-callout,.js .fmap-label,.js .fmap-sub{opacity:1}
+    .fmap-pulse{display:none}
+    .js .uscale .track,.js .uscale .ufill{stroke-dasharray:none;stroke-dashoffset:0}
+    .js .uscale .tick{opacity:1}
+    .js .uscale .udot{transform:scale(1);opacity:1}
+  }
+</style>
+</head>
+<body>
+<!--
+  ============================================================
+  SWAP MANIFEST : every editable spot, in page order
+  ============================================================
+  Search the file for "SWAP:" to jump to each item.
+   1. <title> + meta description (head)
+   2. Header: logo, nav links, phone, CTA target
+   3. Hero: AI clip + fallback still, kicker, headline,
+      subheadline, CTAs, proof line
+   4. Credentials strip: four phrases
+   5. What is EBOO: headline, body copy, 4 spec chips,
+      two AI clips + stills
+   6. How it works: headline, lede, loop diagram labels,
+      5 ledger rows (title, copy, thumb), small print
+      (canvas bloodstream is decorative; hidden under
+      reduced motion)
+   7. Goals over the bridge: 8 plates + footnote; backdrop
+      URLs live in the .scenic CSS rules
+   8. Who: headline, intro, 4 rows, honesty card
+   9. Film band: photo + captions
+  10. Visit rail: headline, 4 cards (photo, tag, title, copy)
+  11. Quote over the skyline + attribution
+  12. Team: 3 medallion cards
+  13. Offer card: headline, lede, bullets, unit scale labels, CTA
+  14. Booking: headline, copy, phone, locations + hours,
+      form fields, form action, consent line
+  15. Footer: brand line, addresses, contact, legal links,
+      disclaimers
+  VIDEO SLOTS ship live with local mp4s in assets-b/ (AI made,
+  no people, no readable text); the still under each video is
+  the poster and reduced-motion state. The form is UNWIRED
+  (action="#"): point it at the campaign intake webhook before
+  ads run; replace legal href="#" stubs with real URLs.
+  ============================================================
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="top" id="top">
+  <div class="top-inner">
+    <!-- SWAP: logo image -->
+    <a class="logo" href="#top" aria-label="Biohackr Health, back to top">
+      <img src="assets-b/logo-white.png" alt="Biohackr Health" width="720" height="120">
+    </a>
+    <nav class="top-links" aria-label="Primary">
+      <a href="#what">What is Botox</a>
+      <a href="#how">How it works</a>
+      <a href="#visit">Your visit</a>
+      <a href="#team">Team</a>
+    </nav>
+    <div class="top-right">
+      <!-- SWAP: phone number (also update tel links below) -->
+      <a class="top-tel" href="tel:+16503701588">(650) 370-1588</a>
+      <!-- SWAP: header CTA target -->
+      <a class="btn" href="#book">Book free consult</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO: AI FILM, LEFT COPY ================= -->
+  <section class="hero" aria-labelledby="h-hero">
+    <div class="slot" data-autoplay>
+      <!-- SWAP: hero clip (real treatment footage). The still below is the poster + reduced-motion state. -->
+      <video src="assets-b/botox-hero-laugh-loop.mp4" muted loop playsinline preload="metadata"></video>
+      <!-- SWAP: hero fallback still -->
+      <img class="ph kb" src="assets-b/botox-hero-laugh-still.jpg" width="1600" height="900" alt="A client laughs while nurse injector Atousa Habibi treats the lines beside her eyes" loading="eager" decoding="async">
+    </div>
+    <div class="hero-veil" aria-hidden="true"></div>
+    <div class="hero-core">
+      <!-- SWAP: hero kicker -->
+      <p class="kicker reveal">Botox and Dysport</p>
+      <!-- SWAP: hero headline (keep under 8 words) -->
+      <h1 class="reveal" id="h-hero" style="--d:.08s">Relax the lines, not&nbsp;your expression.</h1>
+      <!-- SWAP: hero subheadline -->
+      <p class="hero-sub reveal" style="--d:.16s">BOTOX Cosmetic and Dysport smooth forehead lines, frown lines, and crow's feet by relaxing the small muscles that crease the skin. Nurse injected, physician led, and done in 15 to 30 minutes at our San Francisco Marina and Palo Alto clinics.</p>
+      <div class="hero-ctas reveal" style="--d:.24s">
+        <!-- SWAP: primary CTA -->
+        <a class="btn" href="#book">Book my free consult</a>
+        <!-- SWAP: secondary link -->
+        <a class="link-quiet" href="#how">See how it works <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <!-- SWAP: hero proof line -->
+      <p class="hero-proof reveal" style="--d:.32s"><span><b>$15</b> per unit</span> <span><b>Best seller</b> at both clinics</span> <span><b>No</b> downtime</span></p>
+    </div>
+  </section>
+
+  <!-- ================= CREDENTIALS STRIP ================= -->
+  <section class="creds" aria-label="Credentials">
+    <div class="creds-inner">
+      <!-- SWAP: credential phrases -->
+      <p class="caps">Injected by our registered nurse</p>
+      <span class="tick" aria-hidden="true"></span>
+      <p class="caps">Physician-led, board-certified MDs</p>
+      <span class="tick" aria-hidden="true"></span>
+      <p class="caps">A board-certified plastic surgeon co-owner</p>
+      <span class="tick" aria-hidden="true"></span>
+      <p class="caps">San Francisco Marina and Palo Alto</p>
+    </div>
+  </section>
+
+  <!-- ================= 01 WHAT IS EBOO ================= -->
+  <section class="sec" id="what" aria-labelledby="h-what">
+    <div class="wrap">
+      <div class="what-grid">
+        <div class="what-copy">
+          <p class="kicker reveal"><span class="idx">01</span>The treatment</p>
+          <div class="sec-head">
+            <!-- SWAP: section headline -->
+            <h2 class="reveal" id="h-what" style="--d:.08s">Small doses. Precise&nbsp;placement.</h2>
+          </div>
+          <!-- SWAP: what-is body copy -->
+          <p class="body reveal" style="--d:.14s"><strong>BOTOX Cosmetic and Dysport are neuromodulators,</strong> prescription treatments injected in tiny, counted doses into specific facial muscles. Every line on your face is made by a muscle repeating itself. When the muscle under a line relaxes, the line softens, while the rest of your face keeps moving like it always has.</p>
+          <p class="body reveal" style="--d:.2s">Treated areas run from the forehead, frown lines, and crow's feet to bunny lines, lip lines and corners, chin, and neck. Clients also come in about a gummy smile, jawline slimming, jaw tension, and the lip flip. The goal is a face that reads rested, never frozen, which is why placement gets more of our attention than product.</p>
+          <div class="spec-chips reveal" style="--d:.26s">
+            <!-- SWAP: spec chips (4) -->
+            <div class="chip"><span class="caps">Visit length</span><strong>15 to 30 minutes</strong></div>
+            <div class="chip"><span class="caps">Rhythm</span><strong>Typically every 3 to 6 months</strong></div>
+            <div class="chip"><span class="caps">Pricing</span><strong>$15 per unit</strong></div>
+            <div class="chip"><span class="caps">Products</span><strong>BOTOX Cosmetic and Dysport</strong></div>
+          </div>
+        </div>
+        <figure class="what-media reveal" style="--d:.16s">
+          <div class="w-main slot" data-autoplay>
+            <div class="frame-int"></div>
+            <!-- SWAP: clip A + fallback still (real treatment footage) -->
+            <video src="assets-b/botox-crowsfeet-macro-loop.mp4" muted loop playsinline preload="metadata"></video>
+            <img class="ph" src="assets-b/botox-crowsfeet-macro-still.jpg" width="810" height="1440" alt="A close view of a fine needle botox injection beside the outer corner of the eye" loading="lazy" decoding="async">
+          </div>
+          <div class="w-over slot" data-autoplay>
+            <div class="frame-int"></div>
+            <!-- SWAP: clip B + fallback still (real treatment footage) -->
+            <video src="assets-b/botox-atousa-prep-loop.mp4" muted loop playsinline preload="metadata"></video>
+            <img class="ph" src="assets-b/botox-atousa-prep-still.jpg" width="810" height="1440" alt="Nurse injector Atousa Habibi in Biohackr scrubs preps the treatment beside her client" loading="lazy" decoding="async">
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 02 HOW: THE LIVING LOOP ================= -->
+  <section class="sec raised" id="how" aria-labelledby="h-how">
+    <div class="wrap">
+      <p class="kicker reveal"><span class="idx">02</span>The rhythm</p>
+      <div class="sec-head">
+        <!-- SWAP: how-it-works headline + lede -->
+        <h2 class="reveal" id="h-how" style="--d:.08s">A short visit on a long&nbsp;cycle.</h2>
+        <p class="h-lede reveal" style="--d:.16s">The appointment takes minutes. The rhythm repeats every few months. See how little time it takes, and how long it holds, then read the visit step by step.</p>
+      </div>
+
+      <div class="fmap-box reveal" style="--d:.2s">
+        <!-- The year card: one week magnified on the left (the 15 to 30 minute
+             visit as a red clock wedge), the whole year as 52 week cells on the
+             right; the two-to-four visit weeks bloom red and pulse, with brackets
+             marking the 3 to 6 month gaps. Decorative; the copy carries the content. -->
+        <svg class="fmap-svg" viewBox="0 0 1180 320" aria-hidden="true" focusable="false">
+          <rect class="fmap-callout" style="--fd:.6s" x="84" y="96" width="112" height="112" rx="14" fill="rgba(224,25,25,.07)" stroke="none"/>
+          <rect class="fmap-line red" pathLength="1" style="--fd:0s" x="84" y="96" width="112" height="112" rx="14"/>
+          <circle class="fmap-line soft" pathLength="1" style="--fd:.25s" cx="140" cy="152" r="40"/>
+          <path class="fmap-line soft" pathLength="1" style="--fd:.45s" d="M140 112 V119 M180 152 H173 M140 192 V185 M100 152 H107"/>
+          <path class="fmap-dot" style="--fd:.85s;fill-opacity:.88" d="M140 152 L140 114 A38 38 0 0 1 172.91 171 Z"/>
+          <text class="fmap-label red" style="--fd:.95s" x="140" y="246" text-anchor="middle">THE VISIT</text>
+          <text class="fmap-sub" style="--fd:1.05s" x="140" y="268" text-anchor="middle">15 TO 30 MINUTES</text>
+          <path class="fmap-callout" style="--fd:1.15s" d="M196 104 L257 113"/>
+          <path class="fmap-callout" style="--fd:1.15s" d="M196 200 L257 139"/>
+          <rect class="fmap-cell" style="--fd:1.15s" x="257" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.15s" x="257" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.15s" x="257" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.15s" x="257" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.15s" x="270" y="262" text-anchor="middle">J</text>
+          <rect class="fmap-cell" style="--fd:1.20s" x="330" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.20s" x="330" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.20s" x="330" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.20s" x="330" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.20s" x="343" y="262" text-anchor="middle">F</text>
+          <rect class="fmap-cell" style="--fd:1.26s" x="403" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.26s" x="403" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.26s" x="403" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.26s" x="403" y="179" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.26s" x="403" y="212" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.26s" x="416" y="262" text-anchor="middle">M</text>
+          <rect class="fmap-cell" style="--fd:1.31s" x="476" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.31s" x="476" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.31s" x="476" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.31s" x="476" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.31s" x="489" y="262" text-anchor="middle">A</text>
+          <rect class="fmap-cell" style="--fd:1.37s" x="549" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.37s" x="549" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.37s" x="549" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.37s" x="549" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.37s" x="562" y="262" text-anchor="middle">M</text>
+          <rect class="fmap-cell" style="--fd:1.42s" x="622" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.42s" x="622" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.42s" x="622" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.42s" x="622" y="179" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.42s" x="622" y="212" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.42s" x="635" y="262" text-anchor="middle">J</text>
+          <rect class="fmap-cell" style="--fd:1.48s" x="695" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.48s" x="695" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.48s" x="695" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.48s" x="695" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.48s" x="708" y="262" text-anchor="middle">J</text>
+          <rect class="fmap-cell" style="--fd:1.53s" x="768" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.53s" x="768" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.53s" x="768" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.53s" x="768" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.53s" x="781" y="262" text-anchor="middle">A</text>
+          <rect class="fmap-cell" style="--fd:1.59s" x="841" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.59s" x="841" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.59s" x="841" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.59s" x="841" y="179" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.59s" x="841" y="212" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.59s" x="854" y="262" text-anchor="middle">S</text>
+          <rect class="fmap-cell" style="--fd:1.65s" x="914" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.65s" x="914" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.65s" x="914" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.65s" x="914" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.65s" x="927" y="262" text-anchor="middle">O</text>
+          <rect class="fmap-cell" style="--fd:1.70s" x="987" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.70s" x="987" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.70s" x="987" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.70s" x="987" y="179" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.70s" x="1000" y="262" text-anchor="middle">N</text>
+          <rect class="fmap-cell" style="--fd:1.75s" x="1060" y="80" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.75s" x="1060" y="113" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.75s" x="1060" y="146" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.75s" x="1060" y="179" width="26" height="26" rx="7"/>
+          <rect class="fmap-cell" style="--fd:1.75s" x="1060" y="212" width="26" height="26" rx="7"/>
+          <text class="fmap-sub" style="--fd:1.75s" x="1073" y="262" text-anchor="middle">D</text>
+          <text class="fmap-label" style="--fd:1.5s" x="671" y="56" text-anchor="middle">YOUR YEAR, WEEK BY WEEK</text>
+          <rect class="fmap-cell red" style="--fd:2.05s" x="257" y="113" width="26" height="26" rx="7"/>
+          <circle class="fmap-pulse" cx="270" cy="126" r="15" style="--pd:0s"/>
+          <rect class="fmap-cell red" style="--fd:2.3s" x="549" y="179" width="26" height="26" rx="7"/>
+          <circle class="fmap-pulse" cx="562" cy="192" r="15" style="--pd:.55s"/>
+          <rect class="fmap-cell red" style="--fd:2.55s" x="914" y="113" width="26" height="26" rx="7"/>
+          <circle class="fmap-pulse" cx="927" cy="126" r="15" style="--pd:1.1s"/>
+          <path class="fmap-line soft" pathLength="1" style="--fd:2.45s" d="M270 278 V284 H562 V278"/>
+          <path class="fmap-line soft" pathLength="1" style="--fd:2.65s" d="M562 284 H927 M927 278 V284"/>
+          <text class="fmap-sub" style="--fd:2.95s" x="598" y="304" text-anchor="middle">TYPICALLY EVERY 3 TO 6 MONTHS, TWO TO FOUR SHORT VISITS A YEAR</text>
+        </svg>
+      </div>
+
+      <div class="steps">
+        <!-- SWAP: step row 1 -->
+        <div class="step reveal">
+          <p class="step-no" aria-hidden="true">01</p>
+          <h3>Consult and mapping</h3>
+          <p>You talk goals, history, and budget. Then your injector watches your face move: raise, frown, squint. The muscles doing the creasing get mapped.</p>
+          <div class="plate"><img class="ph" src="assets-b/step-01-consult-mapping.jpg" width="1200" height="1200" alt="The injector watches as a client points to the lines beside her eyes" loading="lazy" decoding="async"></div>
+        </div>
+        <!-- SWAP: step row 2 -->
+        <div class="step reveal" style="--d:.08s">
+          <p class="step-no" aria-hidden="true">02</p>
+          <h3>The plan, in units</h3>
+          <p>Dosing is counted in units per area, and pricing is $15 per unit. You approve the exact plan and total before anything is drawn up.</p>
+          <div class="plate"><img class="ph" src="assets-b/step-02-plan-units-ai.jpg" width="1200" height="1200" alt="A gloved hand holds the fine dosing syringe upright, checking the counted units on the barrel before draw-up" loading="lazy" decoding="async"></div>
+        </div>
+        <!-- SWAP: step row 3 -->
+        <div class="step reveal" style="--d:.16s">
+          <p class="step-no" aria-hidden="true">03</p>
+          <h3>Prep</h3>
+          <p>Skin is cleansed and the injection points are marked. First time? Your nurse walks you through exactly what the next few minutes hold.</p>
+          <div class="plate"><img class="ph" src="assets-b/step-03-prep-cleanse.jpg" width="1200" height="1200" alt="Gloved hands cleanse the skin around a client's closed eyes before treatment" loading="lazy" decoding="async"></div>
+        </div>
+        <!-- SWAP: step row 4 -->
+        <div class="step reveal" style="--d:.24s">
+          <p class="step-no" aria-hidden="true">04</p>
+          <h3>The injections</h3>
+          <p>A series of small, quick injections with a very fine needle. Most people are surprised how fast this part goes.</p>
+          <div class="plate"><img class="ph" src="assets-b/step-04-injections.jpg" width="1200" height="1200" alt="A precise injection between the brows while the client rests, eyes closed" loading="lazy" decoding="async"></div>
+        </div>
+        <!-- SWAP: step row 5 -->
+        <div class="step reveal" style="--d:.32s">
+          <p class="step-no" aria-hidden="true">05</p>
+          <h3>Back to your day</h3>
+          <p>There is no downtime. Simple aftercare, then the result settles in over the following days, not in the parking lot.</p>
+          <div class="plate"><img class="ph" src="assets-b/step-05-back-to-day-ai.jpg" width="1200" height="1200" alt="A woman steps out of the clinic door into the morning, coffee in hand, back to her day" loading="lazy" decoding="async"></div>
+        </div>
+      </div>
+      <!-- SWAP: how-it-works small print -->
+      <p class="how-note">BOTOX Cosmetic and Dysport are prescription treatments. Your medical team reviews your health history before any injection, and dosing is tailored to your anatomy.</p>
+    </div>
+  </section>
+
+  <!-- ================= 03 GOALS OVER THE BRIDGE ================= -->
+  <section class="sec scenic" id="goals" aria-labelledby="h-goals">
+    <div class="wrap">
+      <div class="sec-head centered">
+        <p class="kicker reveal"><span class="idx">03</span>The goals</p>
+        <!-- SWAP: goals headline + lede -->
+        <h2 class="reveal" id="h-goals" style="--d:.08s">What clients come to&nbsp;soften.</h2>
+        <p class="h-lede reveal" style="--d:.16s">Every area is its own small decision, mapped and dosed on its own. These are the requests clients bring to us most often.</p>
+      </div>
+      <div class="goals">
+        <!-- SWAP: goal plates (8) -->
+        <article class="goal reveal"><span class="caps">A. 01</span><h3>Forehead lines</h3><p>The horizontal rows that show when you raise your brows.</p></article>
+        <article class="goal reveal" style="--d:.06s"><span class="caps">A. 02</span><h3>Frown lines</h3><p>The vertical elevens that gather between the brows.</p></article>
+        <article class="goal reveal" style="--d:.12s"><span class="caps">A. 03</span><h3>Crow's feet</h3><p>The fan of lines at the outer corners of the eyes.</p></article>
+        <article class="goal reveal" style="--d:.18s"><span class="caps">A. 04</span><h3>Bunny lines</h3><p>The small creases that scrunch across the nose.</p></article>
+        <article class="goal reveal"><span class="caps">A. 05</span><h3>Lip lines and corners</h3><p>Vertical lip lines, and corners that pull down.</p></article>
+        <article class="goal reveal" style="--d:.06s"><span class="caps">A. 06</span><h3>Chin and neck</h3><p>Chin dimpling and the vertical bands of the neck.</p></article>
+        <article class="goal reveal" style="--d:.12s"><span class="caps">A. 07</span><h3>Gummy smile and lip flip</h3><p>Small doses that change how the lip sits at rest.</p></article>
+        <article class="goal reveal" style="--d:.18s"><span class="caps">A. 08</span><h3>Jawline and jaw tension</h3><p>Masseter dosing to slim the jaw or ease clenching. Ask in consult.</p></article>
+      </div>
+      <!-- SWAP: goals footnote -->
+      <p class="goals-note reveal">Botulinum toxin treatment is prescription medicine with real limits. Results vary from person to person and settle in over days, not hours. Your consult covers what is realistic for your face, and what we would skip.</p>
+    </div>
+  </section>
+
+  <!-- ================= 04 WHO + HONESTY ================= -->
+  <section class="sec raised" id="who" aria-labelledby="h-who">
+    <div class="wrap">
+      <div class="who-grid">
+        <div>
+          <p class="kicker reveal"><span class="idx">04</span>The fit</p>
+          <div class="sec-head">
+            <!-- SWAP: who headline + intro -->
+            <h2 class="reveal" id="h-who" style="--d:.08s">Built for people who want&nbsp;subtle.</h2>
+            <p class="h-lede reveal" style="--d:.16s">The best work is the kind nobody clocks. Biohackr draws clients who want to look rested and still like themselves, from a medical team willing to say no to too much.</p>
+          </div>
+          <div class="fit-grid">
+            <!-- SWAP: fit cards (4) -->
+            <article class="fit-card reveal">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M9 8V6.5A2.5 2.5 0 0 1 11.5 4h1A2.5 2.5 0 0 1 15 6.5V8"/><path d="M4 13h16"/></svg>
+              <h3>Working professionals</h3>
+              <p>In and out on a lunch break, with no downtime.</p>
+            </article>
+            <article class="fit-card reveal" style="--d:.08s">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12.5h3.5L9 6.5l4.5 11 2.5-5H21"/></svg>
+              <h3>First timers</h3>
+              <p>Walked through slowly and dosed conservatively.</p>
+            </article>
+            <article class="fit-card reveal" style="--d:.16s">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 17.5l5.5-5.5 3.5 3.5 7-8"/><path d="M15.5 7.5H19V11"/></svg>
+              <h3>Prevention minded</h3>
+              <p>Softening strong habits before lines set in.</p>
+            </article>
+            <article class="fit-card reveal" style="--d:.24s">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="9" width="14" height="7" rx="1.6"/><path d="M20 10.5v4"/><path d="M6.5 11.5v2"/></svg>
+              <h3>Seasoned maintainers</h3>
+              <p>Already get tox. Want steadier hands, honest pricing.</p>
+            </article>
+          </div>
+          <!-- SWAP: honest-fit note -->
+          <p class="fit-note reveal" style="--d:.2s">Screening comes first, every time: pregnancy, breastfeeding, certain neuromuscular conditions, and some medications rule treatment out. <strong>If a neuromodulator is not right for you, we will say so and suggest where to start instead.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FILM BAND ================= -->
+  <section class="film" aria-label="The treatment room">
+    <!-- SWAP: film band photo -->
+    <img class="ph kb" src="assets-b/film-room-wide.jpg" width="1920" height="845" alt="The aesthetics room mid-session: the injector works while the client reclines in the cream chair" loading="lazy" decoding="async">
+    <div class="film-scrim">
+      <!-- SWAP: film captions -->
+      <p class="caps">The visit itself</p>
+      <p class="caps quiet">In and out in under thirty minutes</p>
+    </div>
+  </section>
+
+  <!-- ================= 05 THE VISIT: RAIL ================= -->
+  <section class="sec" id="visit" aria-labelledby="h-visit">
+    <div class="wrap">
+      <div class="visit-head">
+        <div>
+          <p class="kicker reveal"><span class="idx">05</span>Your first visit</p>
+          <!-- SWAP: visit headline -->
+          <h2 class="reveal" id="h-visit" style="--d:.08s">A visit that fits a lunch&nbsp;break.</h2>
+        </div>
+        <div class="rail-nav reveal" style="--d:.14s">
+          <button class="rail-btn" type="button" data-rail-prev aria-label="Scroll visit steps back">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 2 4 8l6 6"/></svg>
+          </button>
+          <button class="rail-btn" type="button" data-rail-next aria-label="Scroll visit steps forward">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 2l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="rail" data-rail tabindex="0" aria-label="The four steps of your first visit, scrollable">
+        <!-- SWAP: visit card 1 -->
+        <article class="vcard reveal">
+          <div class="plate"><img class="ph" src="assets-b/consult-table.jpg" width="1200" height="1800" alt="A clinician goes through goals and history with a client at the consult table" loading="lazy" decoding="async"></div>
+          <div class="vcard-body"><p class="caps">Step one</p><h3>The free consult</h3><p>Goals, history, medications, honest fit. Your injector answers everything, including whether to wait.</p></div>
+        </article>
+        <!-- SWAP: visit card 2 -->
+        <article class="vcard reveal" style="--d:.07s">
+          <div class="plate"><img class="ph" src="assets-b/rail-02-mapping.jpg" width="1200" height="900" alt="A client touches her cheek while studying her face in the handheld consult mirror" loading="lazy" decoding="async"></div>
+          <div class="vcard-body"><p class="caps">Step two</p><h3>Mapping and plan</h3><p>Your face in motion, mapped area by area. Units and the total are agreed before anything is drawn up.</p></div>
+        </article>
+        <!-- SWAP: visit card 3 -->
+        <article class="vcard reveal" style="--d:.14s">
+          <div class="plate"><img class="ph" src="assets-b/rail-03-injections.jpg" width="1200" height="900" alt="The injector steadies the skin at the outer eye while working through the plan" loading="lazy" decoding="async"></div>
+          <div class="vcard-body"><p class="caps">Step three</p><h3>The injections</h3><p>Quick, precise, and done in minutes. Most clients are back to their day inside the half hour.</p></div>
+        </article>
+        <!-- SWAP: visit card 4 -->
+        <article class="vcard reveal" style="--d:.21s">
+          <div class="plate"><img class="ph" src="assets-b/wrapup-front-desk.jpg" width="1200" height="1800" alt="A client reviews her aftercare notes at the Biohackr Health front desk" loading="lazy" decoding="async"></div>
+          <div class="vcard-body"><p class="caps">Step four</p><h3>Wrap up and plan</h3><p>Simple aftercare, then a check-in as results settle. Touch-ups land on your calendar every 3 to 6 months.</p></div>
+        </article>
+      </div>
+      <!-- SWAP: visit note -->
+      <p class="visit-note">Free consult first, always. If you qualify, treatment can happen the same visit.</p>
+    </div>
+  </section>
+
+  <!-- ================= 06 TEAM + OFFER (the light band) ================= -->
+  <section class="sec on-light" id="team" aria-labelledby="h-team">
+    <div class="wrap">
+      <div class="sec-head centered">
+        <p class="kicker reveal"><span class="idx">06</span>Physician-led</p>
+        <!-- SWAP: team headline + lede -->
+        <h2 class="reveal" id="h-team" style="--d:.08s">The team behind the&nbsp;treatment.</h2>
+        <p class="h-lede reveal" style="--d:.16s">Biohackr Health is a medical clinic first. Your injector is a registered nurse with over a decade in aesthetics, working under physicians, one of them a board-certified plastic surgeon.</p>
+      </div>
+      <div class="team-grid">
+        <!-- SWAP: team member 1 -->
+        <article class="member reveal">
+          <div class="medal"><div class="plate"><img class="ph" src="assets-b/team-bluvas.jpg" width="600" height="600" alt="Portrait of Dr. Lori Bluvas" loading="lazy" decoding="async"></div></div>
+          <h3>Dr. Lori Bluvas, MD</h3>
+          <span class="caps">CEO and Co founder</span>
+          <p>Board-certified OB/GYN with over 25 years of experience, specializing in women's longevity and hormone optimization. Advanced training from Brown University.</p>
+        </article>
+        <!-- SWAP: team member 2 -->
+        <article class="member reveal" style="--d:.1s">
+          <div class="medal"><div class="plate"><img class="ph" src="assets-b/team-greenberg.png" width="600" height="600" alt="Portrait of Dr. Lauren Greenberg" loading="lazy" decoding="async"></div></div>
+          <h3>Dr. Lauren Greenberg, MD</h3>
+          <span class="caps">Co owner and Partner</span>
+          <p>Board-certified plastic surgeon trained at Dartmouth, Northwestern, and Stanford. Has run a boutique practice on Stanford's campus since 1999.</p>
+        </article>
+        <!-- SWAP: team member 3 -->
+        <article class="member reveal" style="--d:.2s">
+          <div class="medal"><div class="plate"><img class="ph" src="assets-b/team-habibi.png" width="600" height="600" alt="Portrait of Atousa Habibi" loading="lazy" decoding="async"></div></div>
+          <h3>Atousa Habibi, RN</h3>
+          <span class="caps">Chief Operations Officer</span>
+          <p>Registered nurse with 12+ years in aesthetics and clinical operations, formerly VP at Lookout Health, where her clinics delivered thousands of treatments.</p>
+        </article>
+      </div>
+
+      <div class="offer" id="offer">
+        <div class="offer-card reveal">
+          <div class="offer-main">
+            <!-- SWAP: offer headline + lede -->
+            <h3>Start with a free consult.</h3>
+            <p class="h-lede">Botox and Dysport run $15 per unit at both clinics, and your plan is priced in the open before anything is injected.</p>
+            <ul class="offer-list">
+              <!-- SWAP: offer bullets -->
+              <li>Free consult with a clinician, in person or by phone. No credit card required.</li>
+              <li>$15 per unit, BOTOX Cosmetic or Dysport, with the unit plan agreed up front.</li>
+              <li>Same pricing, either location: San Francisco Marina or Palo Alto.</li>
+            </ul>
+          </div>
+          <div class="offer-aside">
+            <!-- SWAP: gauge labels -->
+            <svg class="uscale" viewBox="0 0 300 210" aria-label="15 dollars per unit for BOTOX and Dysport, free consult first">
+              <text class="g-big" x="150" y="64" text-anchor="middle" dominant-baseline="middle">$15</text>
+              <text class="g-caps" x="150" y="104" text-anchor="middle">PER UNIT, BOTOX AND DYSPORT</text>
+              <path class="track" pathLength="1" d="M20 148 H280"/>
+              <line class="tick major" style="--ud:0.15s" x1="20" y1="133" x2="20" y2="148"/>
+              <line class="tick" style="--ud:0.18s" x1="30" y1="140" x2="30" y2="148"/>
+              <line class="tick" style="--ud:0.21s" x1="40" y1="140" x2="40" y2="148"/>
+              <line class="tick" style="--ud:0.24s" x1="50" y1="140" x2="50" y2="148"/>
+              <line class="tick" style="--ud:0.27s" x1="60" y1="140" x2="60" y2="148"/>
+              <line class="tick major" style="--ud:0.30s" x1="70" y1="133" x2="70" y2="148"/>
+              <line class="tick" style="--ud:0.33s" x1="80" y1="140" x2="80" y2="148"/>
+              <line class="tick" style="--ud:0.36s" x1="90" y1="140" x2="90" y2="148"/>
+              <line class="tick" style="--ud:0.39s" x1="100" y1="140" x2="100" y2="148"/>
+              <line class="tick" style="--ud:0.42s" x1="110" y1="140" x2="110" y2="148"/>
+              <line class="tick major" style="--ud:0.45s" x1="120" y1="133" x2="120" y2="148"/>
+              <line class="tick" style="--ud:0.48s" x1="130" y1="140" x2="130" y2="148"/>
+              <line class="tick" style="--ud:0.51s" x1="140" y1="140" x2="140" y2="148"/>
+              <line class="tick" style="--ud:0.54s" x1="150" y1="140" x2="150" y2="148"/>
+              <line class="tick" style="--ud:0.57s" x1="160" y1="140" x2="160" y2="148"/>
+              <line class="tick major" style="--ud:0.60s" x1="170" y1="133" x2="170" y2="148"/>
+              <line class="tick" style="--ud:0.63s" x1="180" y1="140" x2="180" y2="148"/>
+              <line class="tick" style="--ud:0.66s" x1="190" y1="140" x2="190" y2="148"/>
+              <line class="tick" style="--ud:0.69s" x1="200" y1="140" x2="200" y2="148"/>
+              <line class="tick" style="--ud:0.72s" x1="210" y1="140" x2="210" y2="148"/>
+              <line class="tick major" style="--ud:0.75s" x1="220" y1="133" x2="220" y2="148"/>
+              <line class="tick" style="--ud:0.78s" x1="230" y1="140" x2="230" y2="148"/>
+              <line class="tick" style="--ud:0.81s" x1="240" y1="140" x2="240" y2="148"/>
+              <line class="tick" style="--ud:0.84s" x1="250" y1="140" x2="250" y2="148"/>
+              <line class="tick" style="--ud:0.87s" x1="260" y1="140" x2="260" y2="148"/>
+              <line class="tick major" style="--ud:0.90s" x1="270" y1="133" x2="270" y2="148"/>
+              <line class="tick" style="--ud:0.93s" x1="280" y1="140" x2="280" y2="148"/>
+              <path class="ufill" pathLength="1" d="M20 148 H155"/>
+              <circle class="udot" cx="155" cy="148" r="5.5"/>
+              <text class="g-caps" x="150" y="192" text-anchor="middle" opacity=".65">FREE CONSULT COMES FIRST</text>
+            </svg>
+            <!-- SWAP: offer CTA -->
+            <a class="btn" href="#book">Book my consult</a>
+            <p class="fine">Your total depends on the areas treated and the units your plan calls for.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GOOGLE REVIEWS ================= -->
+  <section class="sec g-reviews" aria-label="What clients say on Google">
+    <div class="wrap">
+      <p class="stars reveal">From our Google reviews</p>
+      <!-- Live reviews: the SAME GHL/LeadConnector widget the original EBOO page embeds
+           (widget vscbiVBPwkbdhVINAGjF). It pulls the clinic's synced Google reviews and
+           updates automatically as new reviews are written. -->
+      <iframe id="msgsndr_reviews" class="reveal" title="Biohackr Health Google reviews" src="https://backend.leadconnectorhq.com/appengine/reviews/get_widget/vscbiVBPwkbdhVINAGjF" frameborder="0" scrolling="auto" loading="lazy"></iframe>
+      <a class="g-link reveal" style="--d:.14s" href="https://www.google.com/search?q=biohackr+health#lrd=0x808581657af64d31:0x1a2a2a9bc73a82fc,1,,," target="_blank" rel="noopener">Read all our reviews on Google</a>
+    </div>
+  </section>
+
+  <!-- ================= BOOKING FINALE ================= -->
+  <section class="book" id="book" aria-labelledby="h-book">
+    <div class="bg" aria-hidden="true">
+      <!-- SWAP: booking background photo (stays under the marine veil; AI room still, NBP branded mode) -->
+      <img class="ph" src="assets-b/booking-room-ai.jpg" width="1080" height="1620" alt="" loading="lazy" decoding="async">
+    </div>
+    <div class="wrap">
+      <div class="book-grid">
+        <div class="book-copy">
+          <p class="kicker reveal">Book now</p>
+          <!-- SWAP: booking headline + copy -->
+          <h2 class="reveal" id="h-book" style="--d:.08s">Take control of how you age.</h2>
+          <p class="h-lede reveal" style="--d:.16s">Get straight answers from a medical team that treats faces conservatively and prices in the open. Start with a free consult, and decide from there.</p>
+          <!-- SWAP: phone -->
+          <a class="book-tel reveal" style="--d:.22s" href="tel:+16503701588">(650) 370-1588</a>
+          <div class="book-meta reveal" style="--d:.28s">
+            <!-- SWAP: locations + hours -->
+            <div>
+              <p class="caps">San Francisco Marina</p>
+              <p><a href="https://goo.gl/maps/8pzTGUEau1jUC3kdA" target="_blank" rel="noopener" class="addr-link">1877 Union Street<br>San Francisco, CA 94123</a><br>Mon to Fri, 10am to 6pm<br>Sat, 10am to 4pm</p>
+            </div>
+            <div>
+              <p class="caps">Palo Alto</p>
+              <p><a href="https://goo.gl/maps/CsZk6nJtbnXJgPLYA" target="_blank" rel="noopener" class="addr-link">540 Bryant Street<br>Palo Alto, CA 94301</a><br>Mon to Fri, 10:30am to 6pm<br>Sat, 10am to 4pm</p>
+            </div>
+          </div>
+        </div>
+        <!-- SWAP: form action (point at the campaign intake webhook before launch) -->
+        <form class="form-card reveal" style="--d:.14s" action="#" method="post" aria-labelledby="h-form">
+          <h3 id="h-form">Book your free consult</h3>
+          <p class="sub">No credit card required. It takes about 30 seconds.</p>
+          <div class="f-grid">
+            <div class="f-field"><label for="f-first">First name</label><input id="f-first" name="first_name" type="text" autocomplete="given-name" required></div>
+            <div class="f-field"><label for="f-last">Last name</label><input id="f-last" name="last_name" type="text" autocomplete="family-name" required></div>
+            <div class="f-field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+            <div class="f-field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+            <div class="f-field"><label for="f-loc">Preferred location</label>
+              <select id="f-loc" name="location" required>
+                <option value="" selected disabled>Select</option>
+                <option>San Francisco Marina</option>
+                <option>Palo Alto</option>
+              </select>
+            </div>
+            <div class="f-field"><label for="f-format">In-person or over the phone?</label>
+              <select id="f-format" name="format" required>
+                <option value="" selected disabled>Select</option>
+                <option>In-person</option>
+                <option>Over the phone</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn" type="submit">Book my free consult</button>
+          <p class="f-status" role="status" aria-live="polite"></p>
+          <!-- SWAP: consent line -->
+          <p class="f-note">By submitting this form you agree to be contacted to schedule your appointment. You may opt out at any time.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-legal" style="margin-top:0;border-top:0;padding-top:.4rem">
+      <!-- SWAP: legal small print -->
+      <p>&copy; 2026 Biohackr Health | All Rights Reserved | <a class="pp-link" href="https://www.biohackr.health/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></p>
+      <p>Botulinum toxin therapy is a prescription treatment administered after evaluation by our medical team. Individual results vary and are not guaranteed.</p>
+      <p>BOTOX&reg; Cosmetic is a registered trademark of Allergan Aesthetics, an AbbVie company. Dysport&reg; is a registered trademark of Ipsen Biopharm Limited. Biohackr Health is an independent clinic.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  document.documentElement.classList.add("js");
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ===== BESPOKE MOTION (safe to delete): the year card =====
+     The magnified visit week draws itself, the 52 week cells cascade in
+     month by month, the visit weeks bloom red, and the pulses stay
+     ambient only while the box is on screen. */
+  var fmap = document.querySelector(".fmap-svg");
+  var fbox = document.querySelector(".fmap-box");
+  if (fmap) {
+    if (reduced || !("IntersectionObserver" in window)) {
+      fmap.classList.add("in");
+    } else {
+      var fio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { fmap.classList.add("in"); fio.disconnect(); }
+        });
+      }, { threshold: 0.35 });
+      fio.observe(fmap);
+      if (fbox) {
+        new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { fbox.classList.toggle("live", e.isIntersecting); });
+        }, { threshold: 0.05 }).observe(fbox);
+      }
+    }
+  }
+  /* ===== end bespoke motion ===== */
+
+  /* Transform-only reveals */
+  var els = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
+  if (reduced || !("IntersectionObserver" in window)) {
+    els.forEach(function (el) { el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) { entry.target.classList.add("in"); io.unobserve(entry.target); }
+      });
+    }, { threshold: 0.14, rootMargin: "0px 0px -5% 0px" });
+    els.forEach(function (el) { io.observe(el); });
+  }
+
+  /* Unit scale draws when seen */
+  var gauge = document.querySelector(".uscale");
+  if (gauge) {
+    if (reduced || !("IntersectionObserver" in window)) { gauge.classList.add("in"); }
+    else {
+      var gio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { gauge.classList.add("in"); gio.disconnect(); } });
+      }, { threshold: 0.5 });
+      gio.observe(gauge);
+    }
+  }
+
+  /* Video slots: play only on screen, fade in over the still when actually playing */
+  Array.prototype.forEach.call(document.querySelectorAll(".slot[data-autoplay]"), function (slot) {
+    var v = slot.querySelector("video");
+    if (!v) return;
+    if (reduced) { v.removeAttribute("autoplay"); try { v.pause(); } catch (e) {} return; }
+    v.addEventListener("playing", function () { slot.classList.add("video-live"); });
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (v.hidden || !v.currentSrc) return;
+          if (e.isIntersecting) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+          else { try { v.pause(); } catch (err) {} }
+        });
+      }, { threshold: 0.12 }).observe(slot);
+    } else if (v.currentSrc && !v.hidden) {
+      var p = v.play(); if (p && p.catch) p.catch(function () {});
+    }
+  });
+
+  /* Visit rail arrows */
+  var rail = document.querySelector("[data-rail]");
+  var prev = document.querySelector("[data-rail-prev]");
+  var next = document.querySelector("[data-rail-next]");
+  function railStep(dir) {
+    if (!rail) return;
+    var card = rail.querySelector(".vcard");
+    var step = card ? card.getBoundingClientRect().width + 18 : 320;
+    rail.scrollBy({ left: dir * step, behavior: reduced ? "auto" : "smooth" });
+  }
+  if (prev) prev.addEventListener("click", function () { railStep(-1); });
+  if (next) next.addEventListener("click", function () { railStep(1); });
+
+  /* Header backdrop */
+  var top = document.querySelector(".top");
+  function onScroll() { if (top) top.classList.toggle("scrolled", window.scrollY > 20); }
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+
+  /* Unwired form: honest, never pretends to submit */
+  var form = document.querySelector(".form-card");
+  if (form && form.getAttribute("action") === "#") {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var s = form.querySelector(".f-status");
+      if (s) {
+        s.textContent = "This form is not connected yet. Call (650) 370-1588, or wire the form action to the campaign intake before launch.";
+        s.classList.add("show");
+      }
+    });
+  }
+
+  // GHL reviews widget helper (auto-sizes the #msgsndr_reviews iframe).
+  // Loaded dynamically to keep the page's single-script invariant.
+  var rw = document.createElement("script");
+  rw.src = "https://apisystem.tech/js/reviews_widget.js";
+  rw.defer = true;
+  document.body.appendChild(rw);
+})();
+</script>
+</body>
+</html>
